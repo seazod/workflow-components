@@ -45,9 +45,8 @@ type Builder struct {
 	projectName   string
 	envs          map[string]string
 
-
-	workDir       string
-	gitDir        string
+	workDir string
+	gitDir  string
 }
 
 // NewBuilder is
